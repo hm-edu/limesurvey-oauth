@@ -1,4 +1,4 @@
-ARG LIMESURVEY_BASE=martialblog/limesurvey:7-apache@sha256:49a08e50c79157fccd4fb9646f7997ed24fc86b2de8b458e61cf15c27da80787
+ARG LIMESURVEY_BASE=martialblog/limesurvey:7-apache@sha256:9ec6e15c653460181e24a175dc2a8c4bdb4227a746233b2f7657f859ae1e0df8
 
 # Build the plugin in a throwaway stage so the runtime image stays smaller.
 FROM ${LIMESURVEY_BASE} AS plugin-builder
